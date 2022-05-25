@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/app.css">
-    <title>Document</title>
+    <title>DC Comics</title>
 </head>
 
 <body>
 
-    @yield('buttonGo')
+    <header>
+        <div class="title1">
+            <p>DC</p>
+        </div>
+        <div class="title2">
+            Comics
+        </div>
+    </header>
 
-    @yield('index')
+    <main>
+        @yield('buttonGo')
 
-    @yield('show')
+        @yield('index')
+
+        @yield('show')
+    </main>
 
 </body>
 

@@ -1,0 +1,44 @@
+.container-detail {
+    width: 100%;
+}
+
+.comic-detail {
+    width: 60%;
+    margin: 0 auto;
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        margin: 50px 0 0 0;
+
+        h2,
+        span {
+            color: green;
+        }
+    }
+
+    .comic-info {
+        line-height: 35px;
+        column-gap: 5%;
+        align-items: center;
+    }
+}
+
+.comic-description {
+    display: flex;
+    column-gap: 5%;
+    align-items: center;
+
+    img {
+        width: 25%;
+    }
+
+    p {
+        width: 20%;
+    }
+}

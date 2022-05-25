@@ -6,4 +6,31 @@
     font-family: 'Nunito', sans-serif;
 }
 
+header {
+    height: 200px;
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+    line-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.title1 {
+    p {
+        font-size: 150px;
+        font-weight: bolder;
+        background-image: url('https://m.media-amazon.com/images/I/91a3Jw6POqL._AC_SL1499_.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.title2 {
+    font-size: 50px;
+}
+
 @import '/resources/sass/partials/index.scss';
+@import '/resources/sass/partials/show.scss';

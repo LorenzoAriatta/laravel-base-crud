@@ -5,6 +5,30 @@
   font-family: "Nunito", sans-serif;
 }
 
+header {
+  height: 200px;
+  background-color: rgb(46, 46, 46);
+  color: whitesmoke;
+  line-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.title1 p {
+  font-size: 150px;
+  font-weight: bolder;
+  background-image: url("https://m.media-amazon.com/images/I/91a3Jw6POqL._AC_SL1499_.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title2 {
+  font-size: 50px;
+}
+
 .container {
   width: 70%;
   margin: 0% auto;
@@ -23,5 +47,53 @@
 .card h3,
 .card h4 {
   margin-bottom: 10px;
+}
+
+.container-detail {
+  width: 100%;
+}
+
+.comic-detail {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.comic-detail h1 {
+  margin-bottom: 50px;
+}
+
+.comic-detail .price {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin: 50px 0 0 0;
+}
+
+.comic-detail .price h2,
+.comic-detail .price span {
+  color: green;
+}
+
+.comic-detail .comic-info {
+  line-height: 35px;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  align-items: center;
+}
+
+.comic-description {
+  display: flex;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  align-items: center;
+}
+
+.comic-description img {
+  width: 25%;
+}
+
+.comic-description p {
+  width: 20%;
 }
 

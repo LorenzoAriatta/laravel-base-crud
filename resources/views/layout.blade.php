@@ -12,17 +12,18 @@
 <body>
 
     <header>
-        <div class="title1">
-            <p>DC</p>
+        <div class="dc">
+            <div class="title1">
+                <p>DC</p>
+            </div>
+            <div class="title2">
+                Comics
+            </div>
         </div>
-        <div class="title2">
-            Comics
-        </div>
+        <a href="/comics">Home &#127968;</a>
     </header>
 
     <main>
-        @yield('buttonGo')
-
         @yield('index')
 
         @yield('show')

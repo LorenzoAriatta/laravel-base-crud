@@ -1,42 +1,3 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-}
-
-header {
-  height: 200px;
-  background-color: rgb(46, 46, 46);
-  color: whitesmoke;
-  line-height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.title1 p {
-  font-size: 150px;
-  font-weight: bolder;
-  background-image: url("https://m.media-amazon.com/images/I/91a3Jw6POqL._AC_SL1499_.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.title2 {
-  font-size: 50px;
-}
-
-main {
-  background-image: url("https://cdn.wallpapersafari.com/36/65/JRvO27.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 800px;
-  overflow-y: auto;
-}
-
 .container {
   width: 70%;
   margin: 0% auto;
@@ -119,5 +80,54 @@ button {
   padding: 10px 20px;
   color: whitesmoke;
   background-color: #0179f4;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  height: 200px;
+  background-color: rgb(46, 46, 46);
+  text-align: center;
+}
+
+header .dc {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.title1 p {
+  font-size: 150px;
+  font-weight: bolder;
+  background-image: url("https://m.media-amazon.com/images/I/91a3Jw6POqL._AC_SL1499_.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title2 {
+  font-size: 50px;
+}
+
+main {
+  background-image: url("https://cdn.wallpapersafari.com/36/65/JRvO27.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 800px;
+  overflow-y: auto;
 }
 

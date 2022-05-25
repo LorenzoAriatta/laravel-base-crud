@@ -11,6 +11,8 @@
 
 <body>
 
+    @yield('index')
+
 </body>
 
 </html>

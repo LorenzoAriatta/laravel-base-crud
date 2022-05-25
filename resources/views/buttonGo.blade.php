@@ -1,3 +1,5 @@
+@extends('layout')
+
 @section('buttonGo')
-    <a href="/comics">Go to Comics DB!</a>
+    <div><a href="comics.index">Go to Comics DB!</a></div>
 @endsection

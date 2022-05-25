@@ -32,5 +32,13 @@ header {
     font-size: 50px;
 }
 
+main {
+    background-image: url('https://cdn.wallpapersafari.com/36/65/JRvO27.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 800px;
+    overflow-y: auto;
+}
+
 @import '/resources/sass/partials/index.scss';
 @import '/resources/sass/partials/show.scss';

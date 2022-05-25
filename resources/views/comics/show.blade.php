@@ -16,6 +16,7 @@
                 <h5>Series: {{ $comic->series }}</h5>
                 <h5>On sale: {{ $comic->sale_date }}</h5>
                 <h5>Type: {{ $comic->type }}</h5>
+                <a href="/comics"><button>Go Back</button></a>
             </div>
         </div>
     </div>

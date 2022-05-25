@@ -10,4 +10,10 @@
     width: calc(100% / 3);
     height: 450px;
     padding: 20px;
+
+    img,
+    h3,
+    h4 {
+        margin-bottom: 10px;
+    }
 }

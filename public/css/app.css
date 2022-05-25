@@ -19,3 +19,9 @@
   padding: 20px;
 }
 
+.card img,
+.card h3,
+.card h4 {
+  margin-bottom: 10px;
+}
+

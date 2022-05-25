@@ -11,6 +11,8 @@
 
 <body>
 
+    @yield('buttonGo')
+
     @yield('index')
 
 </body>

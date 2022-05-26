@@ -21,9 +21,16 @@
                 <form class="form" action="{{ route('comics.destroy', $comic->id) }}" method="POST">
                     @csrf
                     @method('delete')
-                    <input class="delete-button" type="submit" value="remove">
+                    <input onclick="btn.onclick" class="delete-button" type="submit" value="remove">
                 </form>
             </div>
+        </div>
+    </div>
+    <div id="popUp" class="pop">
+        <div class="pop-content">
+            <span onclick="close.onclick" class="close">&times;</span>
+            <h3>This operation is NOT reversible.</h3>
+            <h3>Do you wish to proceed?</h3>
         </div>
     </div>
 @endsection

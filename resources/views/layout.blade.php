@@ -20,11 +20,14 @@
                 Comics
             </div>
         </div>
-        <a href="/comics">Home &#127968;</a>
+        <a href="{{ route('comics.index') }}">Home &#127968;</a>
+        <a href="{{ route('comics.create') }}">Create NEW Comic!</a>
     </header>
 
     <main>
         @yield('index')
+
+        @yield('create')
 
         @yield('show')
     </main>

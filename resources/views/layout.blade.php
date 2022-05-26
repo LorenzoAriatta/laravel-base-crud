@@ -29,6 +29,8 @@
 
         @yield('create')
 
+        @yield('edit')
+
         @yield('show')
     </main>
 

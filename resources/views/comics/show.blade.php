@@ -19,5 +19,13 @@
                 <a href="{{ route('comics.index') }}"><button>Go Back</button></a>
             </div>
         </div>
+        <form action="{{ route('comics.destroy', $comic->id) }}" method="POST">
+
+            @csrf
+            Clik here to Delete the Comic
+            @method('delete')
+            <input type="submit" value="remove">
+
+        </form>
     </div>
 @endsection

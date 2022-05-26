@@ -11,12 +11,18 @@
   height: 450px;
   padding: 20px;
   color: whitesmoke;
+  margin-bottom: 30px;
 }
 
 .card img,
 .card h3,
 .card h4 {
   margin-bottom: 10px;
+}
+
+.card img {
+  width: 192px;
+  height: 291px;
 }
 
 .card a button {

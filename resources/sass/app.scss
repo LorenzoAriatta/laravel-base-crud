@@ -11,7 +11,7 @@
 }
 
 header {
-    height: 220px;
+    height: 200px;
     background-color: rgb(46, 46, 46);
     text-align: center;
 
@@ -22,10 +22,20 @@ header {
         align-items: baseline;
     }
 
-    a {
-        text-decoration: none;
-        font-size: 20px;
-        color: whitesmoke;
+    .nav {
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: whitesmoke;
+
+        }
+
+        a:hover {
+            color: #03e9f4;
+        }
     }
 }
 

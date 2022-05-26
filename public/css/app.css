@@ -25,11 +25,26 @@
   height: 291px;
 }
 
-.card a button {
-  border-radius: 15px;
+.detail-button {
+  display: inline-block;
   padding: 10px 20px;
-  color: whitesmoke;
-  background-color: #0179f4;
+  color: #03e9f4;
+  border: 1px #03e9f4;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+
+.detail-button:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
 }
 
 .container-detail {
@@ -66,13 +81,6 @@
   align-items: center;
 }
 
-.comic-detail .comic-info a button {
-  border-radius: 15px;
-  padding: 10px 20px;
-  color: whitesmoke;
-  background-color: #0179f4;
-}
-
 .comic-description {
   display: flex;
   -moz-column-gap: 5%;
@@ -86,6 +94,37 @@
 
 .comic-description p {
   width: 35%;
+}
+
+.delete-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  border: 1px #03e9f4;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+
+.delete-button:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+.form {
+  display: inline;
+}
+
+h6 {
+  display: inline;
+  margin: 0px 10px;
 }
 
 .create-box {
@@ -305,7 +344,7 @@
 }
 
 header {
-  height: 220px;
+  height: 200px;
   background-color: rgb(46, 46, 46);
   text-align: center;
 }
@@ -317,10 +356,19 @@ header .dc {
   align-items: baseline;
 }
 
-header a {
+header .nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header .nav a {
   text-decoration: none;
   font-size: 20px;
   color: whitesmoke;
+}
+
+header .nav a:hover {
+  color: #03e9f4;
 }
 
 .title1 p {

@@ -20,8 +20,10 @@
                 Comics
             </div>
         </div>
-        <a href="{{ route('comics.index') }}">Home &#127968;</a>
-        <a href="{{ route('comics.create') }}">Create NEW Comic!</a>
+        <div class="nav">
+            <a href="{{ route('comics.index') }}">Home</a>
+            <a href="{{ route('comics.create') }}">Create NEW Comic!</a>
+        </div>
     </header>
 
     <main>

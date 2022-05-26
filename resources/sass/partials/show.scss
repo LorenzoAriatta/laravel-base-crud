@@ -29,14 +29,6 @@
         column-gap: 5%;
         align-items: center;
 
-        a {
-            button {
-                border-radius: 15px;
-                padding: 10px 20px;
-                color: whitesmoke;
-                background-color: #0179f4;
-            }
-        }
     }
 }
 
@@ -52,4 +44,38 @@
     p {
         width: 35%;
     }
+}
+
+.delete-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    border: 1px #03e9f4;
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 10px;
+    letter-spacing: 4px
+}
+
+.delete-button:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
+
+.form {
+    display: inline;
+}
+
+h6 {
+    display: inline;
+    margin: 0px 10px;
 }

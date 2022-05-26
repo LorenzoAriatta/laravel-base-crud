@@ -19,7 +19,7 @@
   margin-bottom: 10px;
 }
 
-.card button {
+.card a button {
   border-radius: 15px;
   padding: 10px 20px;
   color: whitesmoke;
@@ -60,6 +60,13 @@
   align-items: center;
 }
 
+.comic-detail .comic-info a button {
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: whitesmoke;
+  background-color: #0179f4;
+}
+
 .comic-description {
   display: flex;
   -moz-column-gap: 5%;
@@ -75,20 +82,13 @@
   width: 35%;
 }
 
-button {
-  border-radius: 15px;
-  padding: 10px 20px;
-  color: whitesmoke;
-  background-color: #0179f4;
-}
-
 .create-box {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 400px;
   padding: 40px;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
@@ -137,11 +137,13 @@ button {
   font-size: 12px;
 }
 
-.create-box form #create-button {
+#create-button {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
   color: #03e9f4;
+  border: 1px #03e9f4;
+  background-color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -151,7 +153,7 @@ button {
   letter-spacing: 4px;
 }
 
-.create-box #create-button:hover {
+#create-button:hover {
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;
@@ -163,7 +165,7 @@ button {
   display: block;
 }
 
-.create-box #create-button span:nth-child(1) {
+#create-button span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -193,7 +195,7 @@ button {
   }
 }
 
-.create-box #create-button span:nth-child(2) {
+#create-button span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -225,7 +227,7 @@ button {
   }
 }
 
-.create-box #create-button span:nth-child(3) {
+#create-button span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;

@@ -28,6 +28,15 @@
         line-height: 35px;
         column-gap: 5%;
         align-items: center;
+
+        a {
+            button {
+                border-radius: 15px;
+                padding: 10px 20px;
+                color: whitesmoke;
+                background-color: #0179f4;
+            }
+        }
     }
 }
 
@@ -43,11 +52,4 @@
     p {
         width: 35%;
     }
-}
-
-button {
-    border-radius: 15px;
-    padding: 10px 20px;
-    color: whitesmoke;
-    background-color: #0179f4;
 }

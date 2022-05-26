@@ -36,14 +36,6 @@
                 <textarea name="description" cols="40" rows="5"></textarea>
             </div>
 
-            {{-- <a type="submit">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Submit
-            </a> --}}
-
             <button id="create-button" type="submit">Submit</button>
 
         </form>

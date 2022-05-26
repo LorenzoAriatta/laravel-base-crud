@@ -27,7 +27,7 @@
     <main>
         @yield('index')
 
-        @yield('create')
+
 
         @yield('show')
     </main>
